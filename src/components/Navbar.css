@@ -1,0 +1,23 @@
+
+.header-search{
+    display: flex;
+    flex-direction: row;
+    background: lightgray;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.4;
+    color: black;
+}
+
+.header-search > input{
+    outline:none;
+    border:none;
+    background: none;
+}
+
+.create-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
